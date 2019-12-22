@@ -1,5 +1,5 @@
 # microbit-kieser
-Python code for bbc micro:bit box used as a timer for Kieser-Training (TM)
+Python code for bbc micro:bit box used as a timer for Kieser-Training (TM) exercises
 
 
 A Kieser-Training exercise has 10 **passes** of each  4 secs down + 2 secs pause + 4 secs up + 2 secs pause = **10 secs** 
