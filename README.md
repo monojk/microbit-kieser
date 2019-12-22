@@ -2,7 +2,7 @@
 Python code for bbc micro:bit box used as a timer for Kieser-Training (TM) exercises
 
 
-A Kieser-Training exercise has 10 **passes** of each  4 secs down + 2 secs pause + 4 secs up + 2 secs pause = **10 secs** 
+A Kieser-Training exercise has 10 **passes** of each  4 secs down + 2 secs pause + 4 secs up + 2 secs pause = **12 secs** 
 
 
 On the 5X5 display the **progress** is shown:
@@ -20,7 +20,7 @@ The middle LED **blinks** when you should start the exercise (countdown has fini
     xx 
 
 **Button A :** (re)starts the timer with a countdown delay of 3 seconds 
-           (stops after 10 * seconds or if button B is pressed)
+           (stops after 120 seconds or if button B is pressed)
 
 **Button B :** stops the timer and displays the elapsed seconds of training
 
