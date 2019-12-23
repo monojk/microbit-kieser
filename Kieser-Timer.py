@@ -47,7 +47,7 @@ def starte():
     display.show(s1)
     sleep(1000)
     display.show(s2)
-    sleep(1000)         # insgesamt 3,5 Sekunden Pause für Vorbereitung
+    sleep(1000)         # a total of 3.5 seconds pause (countdown) for preparation
     display.show(Images[0])
     displayCycle(0)
     sleep(1000)
@@ -65,7 +65,7 @@ while True:
     startLoopTime = running_time()
     #gesture = accelerometer.current_gesture()
     #if gesture == "shake":
-    #    sound = 1 - sound   # Umschalten zwischen Sound und keinem Sound
+    #    sound = 1 - sound   # Toggle between sound and mute
     if button_a.was_pressed():
         starte()
     elif i >= 0 and button_b.was_pressed():
