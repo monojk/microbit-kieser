@@ -58,6 +58,9 @@ def starte():
     display.set_pixel(2, 2, 0)
     sleep(200)
     display.set_pixel(2, 2, 9)
+    button_a.was_pressed()
+    if button_b.was_pressed() :
+        i = -1
 
 sound = 0
 i = -1
