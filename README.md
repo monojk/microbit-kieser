@@ -28,3 +28,5 @@ The middle LED **blinks** when you should start the exercise (countdown has fini
 * bbc micro:bit
 * MI-Power-Board
 * Mi Protector Case
+
+![microbit running the microbit-kieser](microbit.jpg)
